@@ -20,7 +20,10 @@ jobs:
           java-version: '17'
           distribution: 'temurin'
           cache: maven
-    
+
+      
+      - name: Compilar e Testar
         run: mvn clean package
 
+      - name: Build da Imagem Docker (Verificação)
         run: docker build -t gs-6-gamified-teams .
