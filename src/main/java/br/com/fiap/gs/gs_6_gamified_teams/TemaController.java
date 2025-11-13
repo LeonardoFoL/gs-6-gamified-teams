@@ -7,20 +7,14 @@ import org.springframework.web.bind.annotation.RestController;
 import java.util.Map;
 import java.util.LinkedHashMap;
 
-/**
- * Controller principal da aplicação.
- * Expõe o endpoint GET /info.
- */
 @RestController
 public class TemaController {
 
-    /**
-     * Endpoint GET /info
-     * [cite_start]Retorna um JSON com os detalhes do tema e dos membros do grupo [cite: 34-40].
-     */
+    
+     
     @GetMapping("/info")
     public Map<String, String> getInfo() {
-        // Usamos LinkedHashMap para garantir a ordem das chaves
+        
         Map<String, String> info = new LinkedHashMap<>();
 
         info.put("tema", "Soluções gamificadas para motivação em equipes hibridas");
