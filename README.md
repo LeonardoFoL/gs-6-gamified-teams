@@ -1,7 +1,7 @@
 ## Nome completo de todos os membros do grupo
 
-* Leonardo Franco de Oliveira
-* Pablo Rangel
+* Leonardo Franco de Oliveira RM: 552528
+* Pablo Rangel RM: 551548
 
 ## Descrição do tema escolhido
 
