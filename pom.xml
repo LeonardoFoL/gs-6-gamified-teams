@@ -7,7 +7,7 @@
 		<groupId>org.springframework.boot</groupId>
 		<artifactId>spring-boot-starter-parent</artifactId>
 		<version>3.5.7</version>
-		<relativePath /> 
+		<relativePath />
 	</parent>
 	<groupId>br.com.fiap.gs</groupId>
 	<artifactId>gs-6-gamified-teams</artifactId>
@@ -55,6 +55,7 @@
 	</dependencies>
 
 	<build>
+		<finalName>gs-6-gamified-teams</finalName>
 		<plugins>
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
