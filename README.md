@@ -29,6 +29,8 @@ mvn spring-boot:run
 
 ```
 
+Acessar o swaggger pela url : http://localhost:8081/swagger-ui/index.html
+
 Repositório docker hub
 
 <https://hub.docker.com/repository/docker/graviityy/gs-6-gamified-teams/general>
